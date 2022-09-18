@@ -1,6 +1,6 @@
 This is a simple Portfolio website made using ReactJS.
 
-![part1](https://user-images.githubusercontent.com/99096855/190922273-974cb3df-4612-497d-bf2f-5bb5f3f3910e.png)
+![part1](https://user-images.githubusercontent.com/99096855/190922582-f7a9af7e-e3f4-4719-aacf-92a3823b6f0d.png)
 
 ![part2](https://user-images.githubusercontent.com/99096855/190922286-0c420424-ab09-4216-8527-420ebc2a93d7.png)
 
