@@ -14,8 +14,8 @@ function NavBar() {
                 <Nav.Link href="#">Home</Nav.Link>
                 <Nav.Link href="#intro_section">About</Nav.Link>
                 <Nav.Link href="#education_section">Education</Nav.Link>
-                <Nav.Link href="#projects_section">Projects</Nav.Link>
                 <Nav.Link href="#skills_section">Skills</Nav.Link>
+                <Nav.Link href="#projects_section">Projects</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Container>
