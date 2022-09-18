@@ -1,0 +1,84 @@
+.intro, .skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* width: 50%; */
+}
+
+.intro_img .skills_image{
+    /* flex: 1; */
+    margin: 10px;
+}
+.intro_text .skills_text{
+    margin-right: 20px;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    /* width: auto\9; */
+}
+
+.skills{
+   padding: 2rem 5rem; 
+}
+.skills_list_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.projects_container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.projects_child{
+    flex: 1;
+    margin: 2rem;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  padding-left:30px;
+  padding-right: 30px;
+}
+.projects_child:hover{
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+}
+.projects_child_button_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects_button{
+    margin: 1rem;
+    font: 1.2rem sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    /* border: 1px black solid; */
+    padding: 0.7rem;
+    border-radius: 20px;
+    background-color: rgb(170, 170, 170);
+    
+}
+
+@media screen and (max-width: 700px) {
+    .intro{
+        flex-direction: column;
+    }
+    .skills{
+        padding: 0 1rem;
+        flex-direction: column;
+    }
+    .projects_container{
+        flex-direction: column;
+    }
+}
